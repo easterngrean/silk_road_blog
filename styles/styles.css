@@ -1,3 +1,16 @@
 p { color: green; }
 
 @media (max-width: 8.5in) { p { color: blue; } }@media (max-width: 5.0in) { p { color: red ; } }
+
+article {    
+  display: grid;    
+  grid-template-columns: 1fr minmax(0, 8.5in) 1fr;
+  height: 11in; 
+  /* temp fix */
+}
+
+article * { 
+  grid-column: 2 / 3; 
+}
+
+
