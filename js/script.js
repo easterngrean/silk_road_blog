@@ -7,8 +7,15 @@ const selectElement = selector => {
 
 console.log(selectElement('.navbar'));
 
-                  
 //Nav styles on scroll
+const scrollHeader = () => { 
+  const headerElement = selectElement('#header');
+  if(this.scrollY >= 15) {
+    headerElement.classList.add('activated');
+  }
+  else{
+    headerElement.classList.remove('activated');
+};
 
 // Open menu & search pop-up
 
