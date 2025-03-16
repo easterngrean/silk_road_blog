@@ -2,7 +2,7 @@
 const selectElement = selector => {
   const element = document.querySelector(selector)
   if(element) return element;
-  throw new Error(`Something went wrong, make sure that the ${selector} exists or is typed correctly.`
+  throw new Error(`Something went wrong, make sure that the ${selector} exists or is typed correctly.`);
       };
 
 console.log(selectElement('.navbar'));
