@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "title": "First Post",
+      "url": "post1.html",
+      "summary": "This is the first post."
+    },
+    {
+      "title": "Second Post",
+      "url": "post2.html",
+      "summary": "This is the second post."
+    }
+    // ... more posts
+  ]
+}
