@@ -21,3 +21,9 @@
         console.error('Error fetching post:', error);
       });
   }
+
+
+  // Example: load multiple posts by calling the function for each post
+  loadPost('post1.html');
+  loadPost('post2.html');
+  // ... add more calls as needed.
