@@ -1,21 +1,23 @@
-// Grab elements
-const selectElement = (selector) => {
-  const element = document.querySelector(selector)
-  if(element) return element;
-  throw new Error(`Something went wrong! make sure that the ${selector} exists or is typed correctly.`);
-      };
-
-
-//Nav styles on scroll
-const scrollHeader = () => { 
-  const headerElement = selectElement('#header');
-  if(this.scrollY >= 15) {
-    headerElement.classList.add('activated');
+  // Function that loads a post HTML file and embeds the content from #post-content into the home page
+  function loadPost(postURL) {
+    fetch(postURL)
+      .then(response => response.text())
+      .then(htmlString => {
+        // Parse the loaded HTML string into a new DOM object
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(htmlString, 'text/html');
+        // Select the element that contains the post content
+        const postContent = doc.getElementById('post-content');
+        if (postContent) {
+          // Insert the content into your homepage container
+          const container = document.getElementById('posts-container');
+          // This creates a copy of the post content and adds it to the container.
+          container.insertAdjacentHTML('beforeend', postContent.innerHTML);
+        } else {
+          console.error('Post content not found in', postURL);
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching post:', error);
+      });
   }
-  else{
-    headerElement.classList.remove('activated');
-}
-
-window.addEventListener('scroll', scrollHeader);
-
-console.log(selectElement('.navbar'));
