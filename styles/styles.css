@@ -32,6 +32,26 @@ a:active {
     font-weight: bold;
 }
 
+/* 1. Make the header full‑width */
+.site-banner {
+  width: 100%;
+  margin: 0;           /* remove any default spacing */
+  padding: 0;
+}
+
+/* 2. Ensure the image scales responsively */
+.site-banner picture,
+.site-banner img {
+  display: block;      /* remove inline‑image gaps */
+  width: 100%;         /* always fill its container */
+  height: auto;        /* maintain aspect ratio */
+}
+
+/* 3. (Optional) Give some breathing room below the banner */
+.site-banner {
+  margin-bottom: 1rem; /* or whatever gap you prefer */
+}
+
 ul {
     list-style-type: none;
     text-align: left;
