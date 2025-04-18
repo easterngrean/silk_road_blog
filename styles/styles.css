@@ -35,7 +35,10 @@ a:active {
 ul {
     list-style-type: none;
     text-align: left;
-    padding-bottom: 1px;
+}
+
+li {
+    padding: 1px;
 }
 
 h1 {
