@@ -1,4 +1,11 @@
 /*css for index page */
+:root {
+    --vintage-red: #9e3641;
+    --teal: #0DACA7;
+    --black: #464647;
+    --glazed-sugar: #FFDCCC;
+    --white: #fffffd;
+}
 
 a {
     text-align: left;
@@ -11,7 +18,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: green;
+    color: var(--vintage-red);
 }
 
 /* mouse over link */
@@ -24,17 +31,10 @@ a:active {
     color: blue;
 }
 
-:root {
-    --vintage-red: #9e3641;
-    --teal: #0DACA7;
-    --black: #464647;
-    --glazed-sugar: #FFDCCC;
-    --white: #fffffd;
-  }
-
 ul {
     list-style-type: none;
     text-align: left;
+    padding-top: 10px;
 }
 
 li {
@@ -56,12 +56,12 @@ h4 {
 
 .col {
     background-color: var(--glazed-sugar);
+    padding: 0px;
 }
 
 .col-9 .col-8 {
     background-color: var(--white);
 }
-
 
 /* css for gallery page */
 
