@@ -57,6 +57,7 @@ h4 {
 .col {
     background-color: var(--white);
     border-right: 2px solid var(--vintage-red);
+    border-left: 2px solid var(--vintage-red);
     padding: 1rem;
 }
 
