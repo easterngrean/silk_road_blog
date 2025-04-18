@@ -32,6 +32,11 @@ a:active {
     --white: #fffffd;
   }
 
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
 h1 {
     text-align: center;
 }
