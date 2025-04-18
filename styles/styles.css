@@ -59,7 +59,7 @@ h4 {
     padding: 0px;
 }
 
-.col-9 .col-8 {
+.col-9, .col-8 {
     background-color: var(--white);
 }
 
