@@ -53,5 +53,5 @@
 
 
   // call the function to act on all new posts (hopefully)
-  loadLinks('index.html');
+  loadLinks('../index.html');
  
