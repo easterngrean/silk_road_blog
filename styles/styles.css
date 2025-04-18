@@ -13,7 +13,7 @@ a {
 
 /* unvisited link */
 a:link {
-    color: var(--teal);
+    color: var(--black);
 }
 
 /* visited link */
@@ -23,12 +23,13 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: var(--teal);
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: var(--vintage-red);
+    font-weight: bold;
 }
 
 ul {
@@ -54,18 +55,22 @@ h4 {
 }
 
 .col {
-    background-color: var(--glazed-sugar);
-    padding: 0px;
+    background-color: var(--white);
+    border-right: 2px solid var(--vintage-red);
+    padding: 1rem;
 }
 
 .col-9, .col-8 {
     background-color: var(--white);
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 /* css for gallery page */
 
 body {
-    background-color: var(--vintage-red);
+    background-color: var(--glazed-sugar);
+    color: var(--black);
     min-height: 100vh;
     font: normal 16px sans-serif;
     padding: 40px 0;
