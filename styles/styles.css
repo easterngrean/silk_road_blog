@@ -55,7 +55,7 @@ h4 {
     background-color: var(--glazed-sugar);
 }
 
-.col-9 {
+.col-9 .col-8 {
     background-color: var(--white);
 }
 
