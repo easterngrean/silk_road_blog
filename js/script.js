@@ -36,7 +36,7 @@
         const parser = new DOMParser();
         const doc = parser.parseFromString(htmlString, 'text/html');
         // Select the element that contains the links
-        const postContent = doc.getElementById('post-links');
+        const linksContent = doc.getElementById('post-links');
         if (linksContent) {
           // Insert the content into your post
           const linkContainer = document.getElementById('links-container');
