@@ -7,6 +7,21 @@
         <link href="styles/styles.css" rel="stylesheet">
         <title>Silk Road Blog</title>
     </head>
+     <!-- At the very top of your page -->
+    <header class="site-banner">
+      <picture class="header-banner">
+        <!-- Large (≥1600px) -->
+        <source media="(min-width: 1600px)" 
+            srcset="images/banner_2400x800.png 1x, images/banner_4800x1600.png 2x">
+        <!-- Medium (1200–1599px) -->
+        <source media="(min-width: 1200px)" 
+            srcset="images/banner_1600x400.png">
+        <!-- Small (<1200px) -->
+        <img src="images/banner_1200x400.png" 
+             alt="Silk Road Blog Banner" 
+             style="width:100%; height:auto; display:block;">
+      </picture>
+    </header>
     <body>
         <h1>Sign-up</h1>
         <div class="container text-center">
