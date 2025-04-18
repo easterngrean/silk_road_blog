@@ -12,7 +12,7 @@
           // Insert the content into your homepage container
           const container = document.getElementById('posts-container');
           // This creates a copy of the post content and adds it to the container.
-          container.insertAdjacentHTML('beforeend', postContent.innerHTML);
+          container.insertAdjacentHTML('afterbegin', postContent.innerHTML);
         } else {
           console.error('Post content not found in', postURL);
         }
