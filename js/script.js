@@ -41,7 +41,7 @@
           // Insert the content into your post
           const linkContainer = document.getElementById('links-container');
           // This creates a copy of the post content and adds it to the container.
-          container.insertAdjacentHTML('beforeend', linksContent.innerHTML);
+          linkContainer.insertAdjacentHTML('beforeend', linksContent.innerHTML);
         } else {
           console.error('Post content not found in', postURL);
         }
