@@ -89,7 +89,7 @@ h4 {
 }
 
 /* special cases */
-#gallery-menu > ul {
+#gallery-menu > ul > li {
     display: inline;
 }
 
