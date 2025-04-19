@@ -90,7 +90,13 @@ h4 {
 
 /* special cases */
 #gallery-menu > ul > li {
-    display: inline;
+    float: left;
+}
+
+#gallery-menu > ul > li > a {
+  display: block;
+  padding: 8px;
+  background-color: var(--vintage-red);
 }
 
 .in-post-image > img {
