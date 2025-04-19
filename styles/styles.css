@@ -91,7 +91,6 @@ h4 {
 /* special cases */
 #gallery-menu > ul > li {
     display: inline;
-    background-color: var(--teal);
 }
 
 .in-post-image > img {
