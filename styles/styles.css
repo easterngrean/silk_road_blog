@@ -7,6 +7,14 @@
     --white: #fffffd;
 }
 
+body {
+    background-color: var(--glazed-sugar);
+    color: var(--black);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 0;
+}
+
 a {
     text-align: left;
 }
@@ -104,14 +112,6 @@ h4 {
 }
 
 /* css for gallery page */
-
-body {
-    background-color: var(--glazed-sugar);
-    color: var(--black);
-    min-height: 100vh;
-    font: normal 16px sans-serif;
-    padding: 40px 0;
-}
 
 .container.gallery-container {
     background-color: #fff;
