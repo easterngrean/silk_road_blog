@@ -110,6 +110,7 @@ h4 {
   display: block;
   padding: 8px;
   background-color: var(--vintage-red);
+  color: var(--glazed-sugar);
 }
 
 .in-post-image > img {
