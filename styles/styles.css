@@ -99,6 +99,7 @@ h4 {
 /* special cases */
 #gallery-menu > ul > li {
     float: left;
+    padding: 0;
 }
 
 #gallery-menu > ul > li > a {
