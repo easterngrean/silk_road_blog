@@ -7,6 +7,10 @@
     --white: #fffffd;
 }
 
+nav {
+    background-color: var(--vintage-red)
+}
+
 body {
     background-color: var(--glazed-sugar);
     color: var(--black);
