@@ -90,7 +90,7 @@ h4 {
     display: inline;
 }
 
-.in-post-image {
+.in-post-image > .img {
     width: 500px;
 }
 
