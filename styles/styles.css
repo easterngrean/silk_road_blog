@@ -9,7 +9,7 @@
 
 nav {
     background-color: var(--vintage-red);
-    z-index: 1;
+    width: 100%;
 }
 
 body {
@@ -22,6 +22,7 @@ body {
 
 #title {
     position: absolute;
+    text-align: center;
 }
 
 a {
