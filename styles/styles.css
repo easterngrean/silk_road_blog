@@ -20,6 +20,10 @@ body {
     padding: 0;
 }
 
+#title {
+    position: absolute;
+}
+
 a {
     text-align: left;
 }
