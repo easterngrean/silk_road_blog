@@ -9,6 +9,7 @@
 
 nav {
     background-color: var(--vintage-red);
+    z-index: 1;
 }
 
 body {
