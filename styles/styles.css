@@ -24,6 +24,8 @@ body {
 #title {
     position: absolute;
     text-align: center;
+    padding-left: 40px;
+    color: var(--vintage-red)
 }
 
 a {
@@ -114,6 +116,7 @@ h4 {
 #gallery-menu > ul {
     background-color: var(--vintage-red);
     margin-bottom: 0;
+    font-size: 2rem;
 }
 
 #gallery-menu > ul > li {
