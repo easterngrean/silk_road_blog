@@ -25,7 +25,8 @@ body {
     position: absolute;
     text-align: center;
     padding-left: 40px;
-    color: var(--vintage-red)
+    color: var(--vintage-red);
+    font-style: minion, serif;
 }
 
 a {
