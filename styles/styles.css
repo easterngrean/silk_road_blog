@@ -109,6 +109,11 @@ h4 {
 }
 
 /* special cases */
+
+#gallery-menu > ul {
+    background-color: var(--vintage-red);
+}
+
 #gallery-menu > ul > li {
     float: left;
     padding: 0;
@@ -117,7 +122,6 @@ h4 {
 #gallery-menu > ul > li > a {
   display: block;
   padding: 8px;
-  background-color: var(--vintage-red);
   color: var(--glazed-sugar);
 }
 
