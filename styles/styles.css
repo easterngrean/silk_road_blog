@@ -114,24 +114,24 @@ h4 {
 
 /* special cases */
 
-#gallery-menu > ul {
+#nav-menu > ul {
     background-color: var(--vintage-red);
     margin-bottom: 0;
     font-size: 2rem;
 }
 
-#gallery-menu > ul > li {
+#nav-menu > ul > li {
     float: left;
     padding: 0;
 }
 
-#gallery-menu > ul > li > a {
+#nav-menu > ul > li > a {
   display: block;
   padding: 8px;
   color: var(--glazed-sugar);
 }
 
-#gallery-menu > ul > li >a:hover {
+#nav-menu > ul > li >a:hover {
     color: var(--teal);
 }
 
