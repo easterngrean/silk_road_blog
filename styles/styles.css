@@ -119,6 +119,7 @@ h4 {
     background-color: var(--vintage-red);
     margin-bottom: 0;
     font-size: 2rem;
+    padding-left: 40px;
 }
 
 #nav-menu > ul > li {
