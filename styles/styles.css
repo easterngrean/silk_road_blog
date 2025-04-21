@@ -30,7 +30,7 @@ body {
     font-weight: bold;
 }
 
-a {
+.outer-columns a {
     text-align: left;
 }
 
