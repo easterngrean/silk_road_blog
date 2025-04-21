@@ -27,7 +27,7 @@ body {
     text-align: center;
     padding-left: 40px;
     color: var(--vintage-red);
-    font-style: minion, serif;
+    font-weight: bold;
 }
 
 a {
