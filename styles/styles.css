@@ -55,25 +55,51 @@ a:active {
     font-weight: bold;
 }
 
-/* 1. Make the header full‑width */
+/* Ensure site-banner is positioned for child absolute positioning */
 .site-banner {
-    width: 100%;
-    margin: 0;           /* remove any default spacing */
-    padding: 0;
+  position: relative;
+  width: 100%;
 }
 
-/* 2. Ensure the image scales responsively */
+/* Make the image scale correctly */
 .site-banner picture,
 .site-banner img {
-    display: block;      /* remove inline‑image gaps */
-    width: 100%;         /* always fill its container */
-    height: auto;        /* maintain aspect ratio */
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-/* 3. (Optional) Give some breathing room below the banner */
-.site-banner {
-    margin-bottom: 1rem; /* or whatever gap you prefer */
+/* Title wrapper positioned over the image */
+.banner-title-wrap {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  z-index: 2;
+  width: 90%;
 }
+
+/* The title itself */
+#title {
+  color: var(--vintage-red);
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+  text-align: left;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+/* Responsive title adjustment */
+@media (max-width: 768px) {
+  #title {
+    font-size: 1.8rem;
+  }
+
+  .banner-title-wrap {
+    top: 10%;
+    left: 4%;
+  }
+}
+
 
 /* headings etc */
 
