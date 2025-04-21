@@ -101,7 +101,7 @@ h4 {
     text-align: left;
 }
 
-.col {
+.outer-columns {
     background-color: var(--white);
     border-right: 2px solid var(--vintage-red);
     border-left: 2px solid var(--vintage-red);
