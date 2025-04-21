@@ -119,6 +119,7 @@ h1 {
     margin-bottom: 0;
     font-size: 2rem;
     padding-left: 40px;
+    list-style-type: none;
 }
 
 #nav-menu > ul > li {
