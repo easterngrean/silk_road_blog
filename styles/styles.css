@@ -138,7 +138,19 @@ h1 {
 }
 
 .in-post-image > img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* center it */
+}
+
+/* Optional: tweak spacing on smaller screens */
+@media (max-width: 768px) {
+    .in-post-image > img {
+        max-width: 100%;
+        padding: 0 1rem; /* some breathing room from screen edge */
+    }
 }
 
 /* css for gallery page */
