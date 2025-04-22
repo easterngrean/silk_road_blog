@@ -226,7 +226,8 @@ h1 {
 
 
 .tz-gallery .lightbox:after {
-    position: absolute;
+    position: relative;
+    display: block;
     top: 0;
     left: 0;
     width: 100%;
