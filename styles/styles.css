@@ -135,7 +135,7 @@ h1 {
     border-left: 2px solid var(--vintage-red);
 }
 
-.col-9, .col-8 {
+.inner-column {
     background-color: var(--white);
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
