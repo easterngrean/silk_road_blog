@@ -1,5 +1,5 @@
 /*css for index page */
-.row article {
+.row {
   outline: 2px dashed red;
 }
 
@@ -37,6 +37,10 @@ body {
     padding-left: 40px;
     color: var(--vintage-red);
     font-weight: bold;
+}
+
+article {
+  background-color: rgba(var(--teal), 0.5);
 }
 
 .outer-columns a {
