@@ -150,33 +150,6 @@ h1 {
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-/* special cases */
-/*
-#nav-menu > ul {
-    background-color: var(--vintage-red);
-    margin-bottom: 0;
-    font-size: 2rem;
-    padding-left: 40px;
-    list-style-type: none;
-}
-
-#nav-menu > ul > li {
-    float: left;
-    padding: 0;
-}
-
-#nav-menu > ul > li > a {
-    display: block;
-    padding: 8px;
-    color: var(--glazed-sugar);
-}
-
-#nav-menu > ul > li >a:hover {
-    color: var(--teal);
-}
-
-*/
-
 .in-post-image > img {
     width: 100%;
     max-width: 500px;
