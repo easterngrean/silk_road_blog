@@ -1,13 +1,4 @@
 /*css for index page */
-.row {
-  outline: 2px dashed red;
-}
-
-.col-12, .col-md-2, .col-md-8 {
-  outline: 1px dotted blue;
-}
-
-
 :root {
     --vintage-red: #9e3641;
     --teal: #0DACA7;
