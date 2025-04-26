@@ -25,6 +25,7 @@
   // Example: load multiple posts by calling the function for each post
   loadPost('posts/130425.html');
   loadPost('posts/250425.html');
+  loadPost('posts/template.html');
   
   // ... add more calls as needed.
 
